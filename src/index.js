@@ -17,7 +17,7 @@ const routes = {
 
   // staging
   // "docker-staging.libcuda.so": dockerHub,
-  "cloudflare-docker-proxy.gdd.workers.dev/": dockerHub,
+  "cloudflare-docker-proxy.gdd.workers.dev/": "https://registry-1.docker.io",
 };
 
 function routeByHosts(host) {
